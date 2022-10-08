@@ -31,27 +31,27 @@ body {
     background-color: black;
 }
 .hero {
-    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: row;
     align-items: center; 
     justify-content: space-around;
     background-color: black;  
 }
-.content {
+.heroContent {
     align-items: flex-start;
 }
 .heroImg {
     /*background-color: black;*/
    padding-right: 50px;
 }
-.content h1 {
+.heroContent h1 {
     color: white;
     font-size: 44px;
   }
-.content p {
-    color: white;
-    font-size: 20px;
+.heroContent h3 {
+    color: white;   
 }
 
 .btnResume {
@@ -80,6 +80,10 @@ body {
 }
 
 .footerItems {
-   padding-top: 10px;
+    padding-top: 10px;
     padding-right: 50px;
  }
+ .contentCase {
+    text-align: center;
+    background-color: whiteblack;  
+}
