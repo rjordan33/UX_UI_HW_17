@@ -1,6 +1,7 @@
 body {
     margin:0px;
     padding: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 .inline-block {
     display: flex;
@@ -64,6 +65,7 @@ body {
     border-radius: 5px;
     font-size: 16px;
     margin-top: 20px;
+    font-weight: 800;
 }
 
 .btnResume:hover { 
@@ -84,6 +86,49 @@ body {
     padding-right: 50px;
  }
  .contentCase {
+    text-align: center;  
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:  auto auto;
+    
+}
+.grid-container > div {
+    padding: 75px;
+}
+.tripContent {
     text-align: center;
-    background-color: whiteblack;  
+}
+.tripPic {
+    display: grid;
+    justify-content: center;
+}
+.saleseePic {
+    display: grid;
+    justify-content: center;
+}
+.saleseeContent {   
+    text-align:center;
+}
+.hollyhillContent {
+    text-align: center;  
+}
+.hollyhillPic {
+    display: grid;
+    justify-content: center;
+}
+.btnCases {
+    width: 272px;
+    height: 63px;
+    border: solid;
+    border-color: red;
+   background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.btnCases:hover { 
+    color:red;
 }
